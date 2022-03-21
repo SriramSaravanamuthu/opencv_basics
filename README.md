@@ -13,5 +13,5 @@ python3 Blend_images.py -i1 <first image location> -i2 <second image location>
 ```
 
 ## to-do 
-resize one of the two image in Blended_images.py
+resize one of the two image in blended_images.py
 
