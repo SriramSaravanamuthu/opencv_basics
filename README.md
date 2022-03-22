@@ -12,6 +12,8 @@ To blend two images use the following command
 python3 Blend_images.py -i1 <first image location> -i2 <second image location>
 ```
 
-## to-do 
-resize one of the two image in blended_images.py
-
+## Face Detection - Video
+To detect face using web cam use the following command
+```
+python3 face_detect.py
+```
