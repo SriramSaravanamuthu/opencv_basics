@@ -11,10 +11,11 @@ args = parser.parse_args()
 
 img1 = cv2.imread(args.Input1)
 Img1 = cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
-
+Img1 = cv2.resize(Img1,(1600,900))
 
 img2 = cv2.imread(args.Input2)
 Img2 = cv2.cvtColor(img2,cv2.COLOR_BGR2RGB)
+Img2 = cv2.resize(Img2,(1600,900))
 if args.Input2:
     blended = cv2.addWeighted(src1=Img1,alpha=0.5,src2=Img2,beta=1,gamma=0)
     while True:
