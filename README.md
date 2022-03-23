@@ -11,7 +11,7 @@ To blend two images use the following command
 ```
 python3 Blend_images.py -i1 <first image location> -i2 <second image location>
 ```
-
+![Blended image](https://github.com/SriramSaravanamuthu/opencv_basics/blob/main/john_wick.png)
 ## Face Detection - Video
 To detect face using web cam use the following command
 ```
