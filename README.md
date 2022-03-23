@@ -17,3 +17,9 @@ To detect face using web cam use the following command
 ```
 python3 face_detect.py
 ```
+## Convert Video into Frames
+To convert video into frame
+```
+python3 frames.py -i <location of video> -o <'location of frame need to be stored'>
+```
+Note: after "-o" destination has to be given with ' ' to declear as string 
